@@ -6,7 +6,7 @@ def digits(t):
 
         if t/10**c < 1:
 
-            if t/10**c > .1:  # number of digits = c
+            if t/10**c >= .1:  # number of digits = c
 
                 for e in range(c-1,-1,-1):
                 # value of exponent e before division of int t by 10**e
